@@ -1,0 +1,31 @@
+.navigation_style { 
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: auto;
+    justify-content: flex-start;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navigation_style .li {
+    padding: 2px;
+}
+
+a{ 
+    text-decoration: none;
+    padding: 9px;
+}
+
+.navigation_header--style { 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.navigation-background--style { 
+ background-image: url("../../../utils/view-of-tall-buildings-tilted-horizontally-banner.jpg");
+ height: 145px;
+ background-size: cover;
+ -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+}
