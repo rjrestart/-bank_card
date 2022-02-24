@@ -1,20 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap);
+
+.navigation-header {
+    font-family: 'Expletus Sans', cursive;
+    font-size: 38px;
+    color: gold;
+    padding: 3px;
+    background-color: #18b549;
+ }
+
 .navigation_style { 
     display: flex;
     flex-direction: row;
     padding: 2px;
     margin: auto;
-    justify-content: flex-start;
+    justify-content: center;
     color: black;
     list-style-type: none;
     text-decoration: none;
-}
-.navigation_style .li {
-    padding: 2px;
+li {
+    font-family: 'Jura', sans-serif;
+    font-size: 15px;
+    margin: 1px;
+    a{ 
+        text-decoration: none;
+        padding: 9px;
+        color: gold;
+        background-color: #18b549;
+
+  }
+ }
 }
 
 a{ 
     text-decoration: none;
-    padding: 9px;
+    color: black;
 }
 
 .navigation_header--style { 
@@ -24,8 +44,9 @@ a{
     justify-content: space-evenly;
 }
 .navigation-background--style { 
- background-image: url("../../../utils/view-of-tall-buildings-tilted-horizontally-banner.jpg");
- height: 145px;
- background-size: cover;
- -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+    background-image: url("../../../utils/navi.jpg");
+    max-width: 1200px;
+    height: 150px;
+    margin: auto;
+    background-size: cover;
 }

@@ -5,11 +5,7 @@ export let arrayOflinks = [
   },
   {
     url: "adfd ",
-    name: "О нас",
-  },
-  {
-    url: "adfd ",
-    name: "актуальные банковские данные",
+    name: "Актуальные банковские данные",
   },
   {
     url: "adfd ",
@@ -18,5 +14,9 @@ export let arrayOflinks = [
   {
     url: "adfd ",
     name: "Банки партнеры",
+  },
+  {
+    url: "adfd ",
+    name: "О нас",
   },
 ];

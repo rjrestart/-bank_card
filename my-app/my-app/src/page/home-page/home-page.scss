@@ -1,6 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap);
+
 .Home-page__style { 
-    background-image:url("../../utils/XWCUWAEZKNIQDNUP45GIPG3EQM.jpg");
-    height: 860px;
+    background-image:url("../../utils/Zim1.jpg");
+    margin:auto;
+    max-width: 1200px;
     background-size:cover;
-    -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+    -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+ h1{ 
+   margin: 0 auto 0 auto;
+   font-size: 42px;
+ }
+}
+
+.hello-section__one { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Jura', sans-serif;
+    padding-top: 126px;
+ p{
+    font-size: 35px;
+ }
+}
+.home-page__Achievements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: linear-gradient(45deg, #00000078, transparent);
+}
+.home-page__Achievements-card {
+    font-family: 'Jura', sans-serif;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+    width: 120px;
+    text-align: center;
+ img { 
+    object-fit:none; 
+    margin: 0;
+ } 
+}
+.home-page__Achievements-card p {
+    margin:0
+}
+.hello-section__avto { 
+    background-image:url("../../utils/orig.jpg");
+    height: 820px;
+    padding:2px;
+    -webkit-mask-image:-webkit-gradient(linear, left 42%, left bottom, from(black), to(rgba(0, 0, 0, 0)));
 }
