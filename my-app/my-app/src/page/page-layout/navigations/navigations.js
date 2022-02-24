@@ -6,7 +6,7 @@ export default function Navigations() {
   return (
     <div className="navigation-background--style">
       <div className="navigation_header--style">
-        <h1> Bank of Zimbambava</h1>
+        <h1 className="navigation-header">Bank of Zimbambava</h1>
       </div>
       <section>
         <ul className="navigation_style">
