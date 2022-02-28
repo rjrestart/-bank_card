@@ -5,23 +5,30 @@
     margin:auto;
     max-width: 1200px;
     background-size:cover;
-    -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
  h1{ 
    margin: 0 auto 0 auto;
-   font-size: 42px;
+   font-size: 55px;
  }
 }
 
 .hello-section__one { 
     display: flex;
-    flex-direction: column;
     text-align: center;
     color: cornsilk;
     font-family: 'Jura', sans-serif;
-    padding-top: 126px;
+    padding-top: 25px;
  p{
     font-size: 35px;
  }
+}
+.hello-section { 
+    text-align: revert;
+    align-self: center;
+ img{
+     width: 200px;
+     object-fit:contain; 
+     margin: 0;
+  }
 }
 .home-page__Achievements {
     display: flex;
@@ -46,9 +53,86 @@
 .home-page__Achievements-card p {
     margin:0
 }
-.hello-section__avto { 
-    background-image:url("../../utils/orig.jpg");
-    height: 820px;
-    padding:2px;
-    -webkit-mask-image:-webkit-gradient(linear, left 42%, left bottom, from(black), to(rgba(0, 0, 0, 0)));
+.home-page__Achievements-auto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: linear-gradient(45deg, #376eac, transparent);
+}
+.home-page__Achievements-card-auto { 
+    font-family: 'Jura', sans-serif;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+    width: 200px;
+    text-align: center;
+ img { 
+    object-fit: contain; 
+    margin: 0;
+    width: 200px;
+    height: 150px;
+     } 
+}
+.home-page__Achievements-card-auto p {
+    margin:0
+}
+.auto-section-title { 
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Jura', sans-serif;
+    color: cornsilk;
+    background: linear-gradient(158deg, #b71212, #b7e90eed);
+}
+.home-page__Achievements-bank {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(45deg, #000000, transparent);
+}
+.home-page__Achievements-card-bank { 
+    font-family: 'Jura', sans-serif;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+    width: 200px;
+    text-align: center;
+ img { 
+    object-fit: contain; 
+    margin: 0;
+    width: 200px;
+    height: 150px;
+     } 
+}
+.home-page__Achievements-planet { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(158deg, #000000, #2c0f49db);
+}
+
+.home-page__Achievements-planet-info { 
+    font-family: 'Jura', sans-serif;
+    color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    margin: 0 5% 0 5%;
+    text-align: start;
+ img {
+    object-fit: contain; 
+    margin: 0;
+    width: 200px;
+    height: 150px;
+    align-self: center;
+     }
+}
+.home-page__planet-bank-info { 
+    font-family: 'Jura', sans-serif;
+    color: cornsilk;
+    font-size: 25px;
 }

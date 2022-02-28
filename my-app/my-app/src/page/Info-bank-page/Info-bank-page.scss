@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap);
+
+.InfoBankPage__style { 
+    margin:auto;
+    max-width: 1200px;
+    background-size:cover;
+}
+.InfoBankPage__title {
+    font-family: 'Jura', sans-serif;
+    color: rgb(27, 22, 2);
+    text-align: center;
+    font-size: 25px;
+}
+.InfoBankPage__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg, #161525, transparent);
+ img{ 
+     margin: 0;
+ }
+}
+.InfoBankPage_director{ 
+    display: flex;
+    padding: 45px;
+}
+.InfoBankPage_zam{
+    display: flex;
+    padding: 45px;
+}
+.InfoBankPage_info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+ h2{
+    font-family: 'Jura', sans-serif;
+    color: rgb(27, 22, 2);
+    font-size: 45px;
+ }
+}
+.InfoBankPage_info p{
+    font-family: 'Jura', sans-serif;
+    color: rgb(27, 22, 2);
+    font-size: 45px;
+ }
+ .InfoBankPage_info li{
+    font-family: 'Jura', sans-serif;
+    color: rgb(27, 22, 2);
+    font-size: 45px;
+ }
+ .InfoBankPage_info img{
+    width: 50px;
+ }

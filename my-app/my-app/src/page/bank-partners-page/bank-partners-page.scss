@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap);
+
+.BankPartnersPage__style { 
+    margin:auto;
+    max-width: 1200px;
+    background-size:cover;
+}
+.BankPartnersPage__title {
+    font-family: 'Jura', sans-serif;
+    color: rgb(27, 22, 2);
+    text-align: center;
+    font-size: 25px;
+}
+.BankPartnersPage__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg, #103e8b, transparent);
+ img{ 
+     margin: 0;
+ }
+}
+.BankPartners_five img {
+    width: 444px;
+    height: 332px;
+}
+.BankPartners_four img{
+    width: 304px;
+    height: 279px;
+}
+// .BankPartners_one { 
+   
+// }
+// .BankPartners_two { 
+
+// }
+// .BankPartners_three { 
+
+// }
+
