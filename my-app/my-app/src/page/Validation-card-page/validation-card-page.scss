@@ -1,5 +1,31 @@
-.Validators { 
-    background: red;
-    width: 2000px;
-    height: 200px;
+.CreditCardPage {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #7621b2, #0c0c0ceb);
+ h2{   
+    font-family: 'Jura', sans-serif;
+    color: rgb(248, 247, 244);
+    font-size: 45px;
+    text-align: center;
+ }
+}
+.Credit-card { 
+    margin: auto;
+    padding: auto;
+    padding-bottom: 2%;
+}
+.CreditCardPage_info {
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+.Credit-card-button { 
+    align-self: center;
+    font-family: 'Jura', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20%;
 }

@@ -1,7 +1,7 @@
 export let arrayOflinks = [
   {
-    url: "adfd ",
-    name: "Мобильный банкинг",
+    url: "/validations ",
+    name: "Электронный банкинг",
   },
   {
     url: "adfd ",
@@ -12,11 +12,11 @@ export let arrayOflinks = [
     name: "Оформить кредит",
   },
   {
-    url: "adfd ",
+    url: "/bank-partners",
     name: "Банки партнеры",
   },
   {
-    url: "adfd ",
+    url: "/o-nas",
     name: "О нас",
   },
 ];
