@@ -1,7 +1,9 @@
 .CreditCardPage {
     display: flex;
     flex-direction: column;
+    margin:auto;
     background: linear-gradient(45deg, #7621b2, #0c0c0ceb);
+    width: 1200px;
  h2{   
     font-family: 'Jura', sans-serif;
     color: rgb(248, 247, 244);
@@ -27,5 +29,5 @@
     font-size: 25px;
     text-align: center;
     width: 200px;
-    margin-bottom: 20%;
+    margin: 20%;
 }

@@ -1,49 +1,32 @@
 @import url(https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap);
 
-.Info-page__style { 
-   background:linear-gradient(45deg, #0c941478, #00b9d470);
+.Credit-page__style { 
+    background-image:url("https://finuslugi.ru/img/posts/big/8r_5a_jf.jpg");
     margin:auto;
     max-width: 1200px;
     background-size:cover;
  h1{ 
    margin: 0 auto 0 auto;
-   font-size: 35px;
-   color: rgb(255, 255, 255);
+   font-size: 55px;
  }
 }
-
-.Info-page__style h2 {
-    margin: 0 auto 0 auto;
-    font-size: 15px;
-    color: #e2d7d7;
-}
-.Inflaciya{ 
-    margin: 0;
-    align-self: center;
-    width: 600px !important;
- } 
-
-.Info-page__Achievements {
+.Credit-page__Achievements {
     display: flex; 
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     background: linear-gradient(45deg, #00000078, transparent);
 }
-.Info-page__Achievements-card {
+.Credit-page__Achievements-card {
     font-family: 'Jura', sans-serif;
     color: cornsilk;
     display: flex;
     flex-direction: column;
-    text-align: start;
-    padding: 2%;
+    text-align: center;
+    margin: 1%;
  img { 
     margin: 0;
     align-self: center;
     width: 200px;
  } 
 }
-
-.Info-page__Achievements-card:hover {
-    opacity: 0.6;
-  }

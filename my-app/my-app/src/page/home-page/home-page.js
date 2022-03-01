@@ -80,12 +80,12 @@ export function НomePage () {
             </div>
           </section>
            <h2 className="auto-section-title">
-             Междуранодные переводы по всему миру
+             Международные переводы по всему миру
            </h2>
           <section className="home-page__Achievements-planet">
             <div className="home-page__Achievements-planet-info">
               <ul className="home-page__planet-bank-info">
-                <li>Наш банк ежидневно производит более 10 переводов по всему миру.</li>
+                <li>Наш банк ежедневно производит более 10 переводов по всему миру.</li>
                 <li>Коммиссия составляет всего 34% от суммы.</li>
                 <li>Мы гарантируем  сохранность средств.</li>
                 <li>Сотрудники нашего банка делают свою работу профессионально и качественно.</li> 

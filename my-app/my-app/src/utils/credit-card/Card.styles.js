@@ -51,5 +51,8 @@ export default StyleSheet.create({
   },
   isMaestro: {
     background: "#ff0000"
-  }
+  },
+  isDinnersClub:{
+    background: "#808080"
+  },  
 });

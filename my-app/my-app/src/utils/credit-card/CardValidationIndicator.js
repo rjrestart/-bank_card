@@ -8,13 +8,13 @@ const CardValidationIndicator = props => {
       {props.isValid ? (
         <img
           className={css(styles.icon)}
-          src="https://uploads.codesandbox.io/uploads/user/eaffd13b-dfde-4d93-a8f6-a88a34f5c314/cRS0-ios-checkmark.svg"
+          src="https://free-png.ru/wp-content/uploads/2021/06/free-png.ru-39.png"
           alt="Valid Card!"
         />
       ) : (
         <img
           className={css(styles.icon)}
-          src="https://uploads.codesandbox.io/uploads/user/eaffd13b-dfde-4d93-a8f6-a88a34f5c314/F3dT-ios-warning.svg"
+          src="https://w7.pngwing.com/pngs/258/656/png-transparent-delete-remove-cross-red-cancel-abort-error-red-cross-thumbnail.png"
           alt="Invalid Card!"
         />
       )}
