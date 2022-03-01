@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router,Routes,Route,Navigate } from 'react-router-dom';
 import { css } from "aphrodite/no-important";
-import cardValidator from "card-validator";
+import cardValidator, { number } from "card-validator";
 import styles from "./Card.styles";
 import axios from "axios";
+import {Redirect} from 'react-router-dom';
 
+import PersonalAreaCard from "../../page/personal-area-card/personal-area-card"
 import CardType from "./CardType";
 import CardNumberField from "./CardNumberField";
 import CardExpiryField from "./CardExpiryField";
@@ -20,29 +23,44 @@ class Card extends Component {
       valid: false
     };
   }
+
   handleExpiry = date => {
     this.setState(() => ({
       expiry: date
     }));
   };
-  activateLasers = () =>{ 
-   let validNumber = this.state.number
-   axios.get('/....',{
-      params: { 
-        cardNumber: validNumber,
-    }
-   })
-    .then(function (response) {
-      console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
-    })
-    .then(function () {
-      // always executed
-    });  
+
+ 
+  activatePost = () =>{ 
+   
+  let cartNumberValid = this.state.number.split(' ')
+  let cardCodePost = cartNumberValid.join('');
+   
+  let requestOptions = {
+  method: 'GET',
+  redirect: 'follow',
+  headers: {
+    'apikey': 'uz37C1BoonXudkHhTErSn4o1bXlomUBV',
+    'Access-Control-Allow-Origin' : '*',
+  }
+ };
+    axios.get(`https://api.apilayer.com/bincheck/${cardCodePost}`, requestOptions) 
+      .then(function (response) {
+          if(response) { 
+          // valid code "302596"
+            alert("Данные верны!");
+        <Navigate replace="/personal-area-card"/>
+        }
+      }
+    )
+        .catch(function (error) {
+          alert("Номер карты не найден");
+        })
+      .then(function () {
+      });  
 
   };
+
   validateCard = num => {
     const card = cardValidator.number(num);
     this.setState(() => ({
@@ -53,6 +71,7 @@ class Card extends Component {
       valid: card.isValid
     }));
   };
+
   render() {
     const classes = css(
       styles.card,
@@ -61,6 +80,7 @@ class Card extends Component {
       this.state.type === "american-express" && styles.isAmericanExrpess,
       this.state.type === "discover" && styles.isDiscover,
       this.state.type === "maestro" && styles.isMaestro,
+      this.state.type === "diners club" &&  styles.isDinersClub
     );
     return (
       <>
@@ -86,7 +106,7 @@ class Card extends Component {
           />
         </div>
       </div>
-      <button className="Credit-card-button" onClick={this.activateLasers}>
+      <button  className="Credit-card-button" onClick={this.activatePost}>
         Отправить
       </button>
       </>

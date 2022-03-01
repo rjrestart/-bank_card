@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { arrayOflinks } from "../../../utils/ArrayOfLinks";
 import "./navigations.scss"
 
@@ -6,7 +7,7 @@ export default function Navigations() {
   return (
     <div className="navigation-background--style">
       <div className="navigation_header--style">
-        <h1 className="navigation-header">Bank of Zimbambava</h1>
+        <Link to="/"className="navigation-header">Bank of Zimbambava</Link>
       </div>
       <section>
         <ul className="navigation_style">

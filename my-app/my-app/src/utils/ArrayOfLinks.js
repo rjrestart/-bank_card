@@ -4,11 +4,11 @@ export let arrayOflinks = [
     name: "Электронный банкинг",
   },
   {
-    url: "adfd ",
-    name: "Актуальные банковские данные",
+    url: "/info",
+    name: "Актуальные банковские новости",
   },
   {
-    url: "adfd ",
+    url: "/credit",
     name: "Оформить кредит",
   },
   {

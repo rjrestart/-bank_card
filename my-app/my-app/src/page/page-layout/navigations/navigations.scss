@@ -7,7 +7,11 @@
     color: gold;
     padding: 3px;
     background-color: #18b549;
- }
+    margin: 2%;
+  &:hover{ 
+        opacity: 0.6;
+      }
+  }
 
 .navigation_style { 
     display: flex;
@@ -18,15 +22,19 @@
     color: black;
     list-style-type: none;
     text-decoration: none;
-li {
-    font-family: 'Jura', sans-serif;
-    font-size: 15px;
-    margin: 1px;
-    a{ 
-        text-decoration: none;
-        padding: 9px;
-        color: gold;
-        background-color: #18b549;
+    li {
+        font-family: 'Jura', sans-serif;
+        font-size: 15px;
+        margin: 1px;
+        a{ 
+            text-decoration: none;
+            padding: 9px;
+            color: gold;
+            background-color: #18b549;
+            &:hover{ 
+                opacity: 0.6;
+              }
+          
 
   }
  }

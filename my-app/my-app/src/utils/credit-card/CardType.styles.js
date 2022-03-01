@@ -4,7 +4,8 @@ export default StyleSheet.create({
   logo: {
     display: "block",
     height: "24px",
-    maxWidth: "60px"
+    maxWidth: "100px",
+    objectfit: "contain",
   },
   placeholder: {
     backgroundColor: "rgba(255,255,255,0.25)",
